@@ -1,0 +1,32 @@
+wwwroot\css\bootstrap.min.css
+wwwroot\favicon.ico
+wwwroot\images\Atomic Habits.jpg
+wwwroot\images\banner.jpg
+wwwroot\images\Before I Go to Sleep.jpg
+wwwroot\images\Clean Code.jpg
+wwwroot\images\Code Complete.jpg
+wwwroot\images\Design Patterns.jpg
+wwwroot\images\Die Hard.jpg
+wwwroot\images\Gone Girl.jpg
+wwwroot\images\Head First Design Patterns.jpg
+wwwroot\images\How to Win Friends and Influence People.jpg
+wwwroot\images\In Cold Blood.jpg
+wwwroot\images\Jurassic Park.jpg
+wwwroot\images\me before you.jpg
+wwwroot\images\NoImage.png
+wwwroot\images\Outlander.jpg
+wwwroot\images\Pride and Prejudice.jpg
+wwwroot\images\The 7 Habits of Highly Effective People.jpg
+wwwroot\images\The Bourne Identity.png
+wwwroot\images\The Cuckoo's Calling.jpg
+wwwroot\images\The Da Vinci Code.jpg
+wwwroot\images\The Fault in Our Stars.jpg
+wwwroot\images\The Girl on the Train.jpg
+wwwroot\images\The Girl with the Dragon Tattoo.jpg
+wwwroot\images\The Godfather.jpg
+wwwroot\images\The Hunger Games.png
+wwwroot\images\The Notebook.jpg
+wwwroot\images\The Pragmatic Programmer.jpg
+wwwroot\images\The Silence of the Lambs.jpg
+wwwroot\images\The Subtle Art of Not Giving a Fck.jpg
+wwwroot\images\You Are a Badass.jpg

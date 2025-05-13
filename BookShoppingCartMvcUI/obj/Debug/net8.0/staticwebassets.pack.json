@@ -1,0 +1,157 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\d\\.Net Web Developer\\depi\\BookShoppingCart-Mvc\\BookShoppingCartMvcUI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BookShoppingCartMvcUI.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BookShoppingCartMvcUI.ljzhhkmp38.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\d\\.Net Web Developer\\depi\\BookShoppingCart-Mvc\\BookShoppingCartMvcUI\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\d\\.Net Web Developer\\depi\\BookShoppingCart-Mvc\\BookShoppingCartMvcUI\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\d\\.Net Web Developer\\depi\\BookShoppingCart-Mvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Atomic Habits.jpg",
+      "PackagePath": "staticwebassets\\images\\Atomic Habits.jpg"
+    },
+    {
+      "Id": "D:\\d\\.Net Web Developer\\depi\\BookShoppingCart-Mvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Before I Go to Sleep.jpg",
+      "PackagePath": "staticwebassets\\images\\Before I Go to Sleep.jpg"
+    },
+    {
+      "Id": "D:\\d\\.Net Web Developer\\depi\\BookShoppingCart-Mvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Clean Code.jpg",
+      "PackagePath": "staticwebassets\\images\\Clean Code.jpg"
+    },
+    {
+      "Id": "D:\\d\\.Net Web Developer\\depi\\BookShoppingCart-Mvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Code Complete.jpg",
+      "PackagePath": "staticwebassets\\images\\Code Complete.jpg"
+    },
+    {
+      "Id": "D:\\d\\.Net Web Developer\\depi\\BookShoppingCart-Mvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Design Patterns.jpg",
+      "PackagePath": "staticwebassets\\images\\Design Patterns.jpg"
+    },
+    {
+      "Id": "D:\\d\\.Net Web Developer\\depi\\BookShoppingCart-Mvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Die Hard.jpg",
+      "PackagePath": "staticwebassets\\images\\Die Hard.jpg"
+    },
+    {
+      "Id": "D:\\d\\.Net Web Developer\\depi\\BookShoppingCart-Mvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Gone Girl.jpg",
+      "PackagePath": "staticwebassets\\images\\Gone Girl.jpg"
+    },
+    {
+      "Id": "D:\\d\\.Net Web Developer\\depi\\BookShoppingCart-Mvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Head First Design Patterns.jpg",
+      "PackagePath": "staticwebassets\\images\\Head First Design Patterns.jpg"
+    },
+    {
+      "Id": "D:\\d\\.Net Web Developer\\depi\\BookShoppingCart-Mvc\\BookShoppingCartMvcUI\\wwwroot\\images\\How to Win Friends and Influence People.jpg",
+      "PackagePath": "staticwebassets\\images\\How to Win Friends and Influence People.jpg"
+    },
+    {
+      "Id": "D:\\d\\.Net Web Developer\\depi\\BookShoppingCart-Mvc\\BookShoppingCartMvcUI\\wwwroot\\images\\In Cold Blood.jpg",
+      "PackagePath": "staticwebassets\\images\\In Cold Blood.jpg"
+    },
+    {
+      "Id": "D:\\d\\.Net Web Developer\\depi\\BookShoppingCart-Mvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Jurassic Park.jpg",
+      "PackagePath": "staticwebassets\\images\\Jurassic Park.jpg"
+    },
+    {
+      "Id": "D:\\d\\.Net Web Developer\\depi\\BookShoppingCart-Mvc\\BookShoppingCartMvcUI\\wwwroot\\images\\NoImage.png",
+      "PackagePath": "staticwebassets\\images\\NoImage.png"
+    },
+    {
+      "Id": "D:\\d\\.Net Web Developer\\depi\\BookShoppingCart-Mvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Outlander.jpg",
+      "PackagePath": "staticwebassets\\images\\Outlander.jpg"
+    },
+    {
+      "Id": "D:\\d\\.Net Web Developer\\depi\\BookShoppingCart-Mvc\\BookShoppingCartMvcUI\\wwwroot\\images\\Pride and Prejudice.jpg",
+      "PackagePath": "staticwebassets\\images\\Pride and Prejudice.jpg"
+    },
+    {
+      "Id": "D:\\d\\.Net Web Developer\\depi\\BookShoppingCart-Mvc\\BookShoppingCartMvcUI\\wwwroot\\images\\The 7 Habits of Highly Effective People.jpg",
+      "PackagePath": "staticwebassets\\images\\The 7 Habits of Highly Effective People.jpg"
+    },
+    {
+      "Id": "D:\\d\\.Net Web Developer\\depi\\BookShoppingCart-Mvc\\BookShoppingCartMvcUI\\wwwroot\\images\\The Bourne Identity.png",
+      "PackagePath": "staticwebassets\\images\\The Bourne Identity.png"
+    },
+    {
+      "Id": "D:\\d\\.Net Web Developer\\depi\\BookShoppingCart-Mvc\\BookShoppingCartMvcUI\\wwwroot\\images\\The Cuckoo's Calling.jpg",
+      "PackagePath": "staticwebassets\\images\\The Cuckoo's Calling.jpg"
+    },
+    {
+      "Id": "D:\\d\\.Net Web Developer\\depi\\BookShoppingCart-Mvc\\BookShoppingCartMvcUI\\wwwroot\\images\\The Da Vinci Code.jpg",
+      "PackagePath": "staticwebassets\\images\\The Da Vinci Code.jpg"
+    },
+    {
+      "Id": "D:\\d\\.Net Web Developer\\depi\\BookShoppingCart-Mvc\\BookShoppingCartMvcUI\\wwwroot\\images\\The Fault in Our Stars.jpg",
+      "PackagePath": "staticwebassets\\images\\The Fault in Our Stars.jpg"
+    },
+    {
+      "Id": "D:\\d\\.Net Web Developer\\depi\\BookShoppingCart-Mvc\\BookShoppingCartMvcUI\\wwwroot\\images\\The Girl on the Train.jpg",
+      "PackagePath": "staticwebassets\\images\\The Girl on the Train.jpg"
+    },
+    {
+      "Id": "D:\\d\\.Net Web Developer\\depi\\BookShoppingCart-Mvc\\BookShoppingCartMvcUI\\wwwroot\\images\\The Girl with the Dragon Tattoo.jpg",
+      "PackagePath": "staticwebassets\\images\\The Girl with the Dragon Tattoo.jpg"
+    },
+    {
+      "Id": "D:\\d\\.Net Web Developer\\depi\\BookShoppingCart-Mvc\\BookShoppingCartMvcUI\\wwwroot\\images\\The Godfather.jpg",
+      "PackagePath": "staticwebassets\\images\\The Godfather.jpg"
+    },
+    {
+      "Id": "D:\\d\\.Net Web Developer\\depi\\BookShoppingCart-Mvc\\BookShoppingCartMvcUI\\wwwroot\\images\\The Hunger Games.png",
+      "PackagePath": "staticwebassets\\images\\The Hunger Games.png"
+    },
+    {
+      "Id": "D:\\d\\.Net Web Developer\\depi\\BookShoppingCart-Mvc\\BookShoppingCartMvcUI\\wwwroot\\images\\The Notebook.jpg",
+      "PackagePath": "staticwebassets\\images\\The Notebook.jpg"
+    },
+    {
+      "Id": "D:\\d\\.Net Web Developer\\depi\\BookShoppingCart-Mvc\\BookShoppingCartMvcUI\\wwwroot\\images\\The Pragmatic Programmer.jpg",
+      "PackagePath": "staticwebassets\\images\\The Pragmatic Programmer.jpg"
+    },
+    {
+      "Id": "D:\\d\\.Net Web Developer\\depi\\BookShoppingCart-Mvc\\BookShoppingCartMvcUI\\wwwroot\\images\\The Silence of the Lambs.jpg",
+      "PackagePath": "staticwebassets\\images\\The Silence of the Lambs.jpg"
+    },
+    {
+      "Id": "D:\\d\\.Net Web Developer\\depi\\BookShoppingCart-Mvc\\BookShoppingCartMvcUI\\wwwroot\\images\\The Subtle Art of Not Giving a Fck.jpg",
+      "PackagePath": "staticwebassets\\images\\The Subtle Art of Not Giving a Fck.jpg"
+    },
+    {
+      "Id": "D:\\d\\.Net Web Developer\\depi\\BookShoppingCart-Mvc\\BookShoppingCartMvcUI\\wwwroot\\images\\You Are a Badass.jpg",
+      "PackagePath": "staticwebassets\\images\\You Are a Badass.jpg"
+    },
+    {
+      "Id": "D:\\d\\.Net Web Developer\\depi\\BookShoppingCart-Mvc\\BookShoppingCartMvcUI\\wwwroot\\images\\banner.jpg",
+      "PackagePath": "staticwebassets\\images\\banner.jpg"
+    },
+    {
+      "Id": "D:\\d\\.Net Web Developer\\depi\\BookShoppingCart-Mvc\\BookShoppingCartMvcUI\\wwwroot\\images\\me before you.jpg",
+      "PackagePath": "staticwebassets\\images\\me before you.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BookShoppingCartMvcUI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BookShoppingCartMvcUI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BookShoppingCartMvcUI.props",
+      "PackagePath": "build\\BookShoppingCartMvcUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BookShoppingCartMvcUI.props",
+      "PackagePath": "buildMultiTargeting\\BookShoppingCartMvcUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BookShoppingCartMvcUI.props",
+      "PackagePath": "buildTransitive\\BookShoppingCartMvcUI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

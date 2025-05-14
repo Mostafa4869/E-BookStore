@@ -4,13 +4,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BookShoppingCartMvcUI.ljzhhkmp38.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Me93n6KU05Y1i26AsXboMP4JDn6IMRmMZ2luCrYx\u002B2k="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3096"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Me93n6KU05Y1i26AsXboMP4JDn6IMRmMZ2luCrYx\u002B2k=\u0022"},{"Name":"Last-Modified","Value":"Tue, 13 May 2025 14:43:22 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3096"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Me93n6KU05Y1i26AsXboMP4JDn6IMRmMZ2luCrYx\u002B2k=\u0022"},{"Name":"Last-Modified","Value":"Wed, 14 May 2025 13:05:36 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BookShoppingCartMvcUI/BookShoppingCartMvcUI.ljzhhkmp38.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BookShoppingCartMvcUI.ljzhhkmp38.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ljzhhkmp38"},{"Name":"integrity","Value":"sha256-Me93n6KU05Y1i26AsXboMP4JDn6IMRmMZ2luCrYx\u002B2k="},{"Name":"label","Value":"_content/BookShoppingCartMvcUI/BookShoppingCartMvcUI.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3096"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Me93n6KU05Y1i26AsXboMP4JDn6IMRmMZ2luCrYx\u002B2k=\u0022"},{"Name":"Last-Modified","Value":"Tue, 13 May 2025 14:43:22 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3096"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Me93n6KU05Y1i26AsXboMP4JDn6IMRmMZ2luCrYx\u002B2k=\u0022"},{"Name":"Last-Modified","Value":"Wed, 14 May 2025 13:05:36 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BookShoppingCartMvcUI/css/bootstrap.min.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\bootstrap.min.css'))</AssetFile>

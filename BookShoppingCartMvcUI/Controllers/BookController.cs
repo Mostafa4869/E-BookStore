@@ -19,12 +19,31 @@ public class BookController : Controller
         _fileService = fileService;
     }
 
-    public async Task<IActionResult> Index()
+    // تم تعديل هذه الدالة فقط لإضافة التصفية
+    public async Task<IActionResult> Index(int genreId = 0)
     {
-        var books = await _bookRepo.GetBooks();
+        IEnumerable<Book> books;
+
+        if (genreId > 0)
+        {
+            books = await _bookRepo.GetBooksByGenre(genreId);
+        }
+        else
+        {
+            books = await _bookRepo.GetBooks();
+        }
+
+        ViewBag.Genres = (await _genreRepo.GetGenres()).Select(g => new SelectListItem
+        {
+            Text = g.GenreName,
+            Value = g.Id.ToString(),
+            Selected = g.Id == genreId
+        });
+
         return View(books);
     }
 
+    // باقي الدوال كما هي بدون أي تغيير
     public async Task<IActionResult> AddBook()
     {
         var genreSelectList = (await _genreRepo.GetGenres()).Select(genre => new SelectListItem
@@ -53,12 +72,12 @@ public class BookController : Controller
         {
             if (bookToAdd.ImageFile != null)
             {
-                if(bookToAdd.ImageFile.Length> 1 * 1024 * 1024)
+                if (bookToAdd.ImageFile.Length > 1 * 1024 * 1024)
                 {
                     throw new InvalidOperationException("Image file can not exceed 1 MB");
                 }
-                string[] allowedExtensions = [".jpeg",".jpg",".png"];
-                string imageName=await _fileService.SaveFile(bookToAdd.ImageFile, allowedExtensions);
+                string[] allowedExtensions = [".jpeg", ".jpg", ".png"];
+                string imageName = await _fileService.SaveFile(bookToAdd.ImageFile, allowedExtensions);
                 bookToAdd.Image = imageName;
             }
             // manual mapping of BookDTO -> Book
@@ -77,7 +96,7 @@ public class BookController : Controller
         }
         catch (InvalidOperationException ex)
         {
-            TempData["errorMessage"]= ex.Message;
+            TempData["errorMessage"] = ex.Message;
             return View(bookToAdd);
         }
         catch (FileNotFoundException ex)
@@ -95,7 +114,7 @@ public class BookController : Controller
     public async Task<IActionResult> UpdateBook(int id)
     {
         var book = await _bookRepo.GetBookById(id);
-        if(book==null)
+        if (book == null)
         {
             TempData["errorMessage"] = $"Book with the id: {id} does not found";
             return RedirectToAction(nameof(Index));
@@ -104,16 +123,16 @@ public class BookController : Controller
         {
             Text = genre.GenreName,
             Value = genre.Id.ToString(),
-            Selected=genre.Id==book.GenreId
+            Selected = genre.Id == book.GenreId
         });
-        BookDTO bookToUpdate = new() 
-        { 
+        BookDTO bookToUpdate = new()
+        {
             GenreList = genreSelectList,
-            BookName=book.BookName,
-            AuthorName=book.AuthorName,
-            GenreId=book.GenreId,
-            Price=book.Price,
-            Image=book.Image 
+            BookName = book.BookName,
+            AuthorName = book.AuthorName,
+            GenreId = book.GenreId,
+            Price = book.Price,
+            Image = book.Image
         };
         return View(bookToUpdate);
     }
@@ -125,7 +144,7 @@ public class BookController : Controller
         {
             Text = genre.GenreName,
             Value = genre.Id.ToString(),
-            Selected=genre.Id==bookToUpdate.GenreId
+            Selected = genre.Id == bookToUpdate.GenreId
         });
         bookToUpdate.GenreList = genreSelectList;
 
@@ -150,7 +169,7 @@ public class BookController : Controller
             // manual mapping of BookDTO -> Book
             Book book = new()
             {
-                Id=bookToUpdate.Id,
+                Id = bookToUpdate.Id,
                 BookName = bookToUpdate.BookName,
                 AuthorName = bookToUpdate.AuthorName,
                 GenreId = bookToUpdate.GenreId,
@@ -159,7 +178,7 @@ public class BookController : Controller
             };
             await _bookRepo.UpdateBook(book);
             // if image is updated, then delete it from the folder too
-            if(!string.IsNullOrWhiteSpace(oldImage))
+            if (!string.IsNullOrWhiteSpace(oldImage))
             {
                 _fileService.DeleteFile(oldImage);
             }
@@ -215,5 +234,4 @@ public class BookController : Controller
         }
         return RedirectToAction(nameof(Index));
     }
-
 }

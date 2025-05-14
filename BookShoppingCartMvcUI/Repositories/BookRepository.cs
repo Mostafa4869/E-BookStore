@@ -8,6 +8,7 @@ namespace BookShoppingCartMvcUI.Repositories
         Task DeleteBook(Book book);
         Task<Book?> GetBookById(int id);
         Task<IEnumerable<Book>> GetBooks();
+        Task<IEnumerable<Book>> GetBooksByGenre(int genreId); // Added this line
         Task UpdateBook(Book book);
     }
 
@@ -39,6 +40,12 @@ namespace BookShoppingCartMvcUI.Repositories
 
         public async Task<Book?> GetBookById(int id) => await _context.Books.FindAsync(id);
 
-        public async Task<IEnumerable<Book>> GetBooks() => await _context.Books.Include(a=>a.Genre).ToListAsync();
+        public async Task<IEnumerable<Book>> GetBooks() => await _context.Books.Include(a => a.Genre).ToListAsync();
+
+        public async Task<IEnumerable<Book>> GetBooksByGenre(int genreId) =>
+            await _context.Books
+                .Include(a => a.Genre)
+                .Where(b => b.GenreId == genreId)
+                .ToListAsync();
     }
 }

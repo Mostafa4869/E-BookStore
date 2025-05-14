@@ -563,8 +563,8 @@ C:\Users\mosta\Downloads\BookShoppingCart-Mvc\BookShoppingCartMvcUI\bin\Debug\ne
 C:\Users\mosta\Downloads\BookShoppingCart-Mvc\BookShoppingCartMvcUI\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
 C:\Users\mosta\Downloads\BookShoppingCart-Mvc\BookShoppingCartMvcUI\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
 D:\d\.Net Web Developer\depi\BookShoppingCart-Mvc\BookShoppingCartMvcUI\bin\Debug\net8.0\appsettings.Development.json
-D:\d\.Net Web Developer\depi\BookShoppingCart-Mvc\BookShoppingCartMvcUI\bin\Debug\net8.0\appsettings.json
 D:\d\.Net Web Developer\depi\BookShoppingCart-Mvc\BookShoppingCartMvcUI\bin\Debug\net8.0\BookShoppingCartMvcUI.staticwebassets.endpoints.json
+D:\d\.Net Web Developer\depi\BookShoppingCart-Mvc\BookShoppingCartMvcUI\bin\Debug\net8.0\appsettings.json
 D:\d\.Net Web Developer\depi\BookShoppingCart-Mvc\BookShoppingCartMvcUI\bin\Debug\net8.0\BookShoppingCartMvcUI.staticwebassets.runtime.json
 D:\d\.Net Web Developer\depi\BookShoppingCart-Mvc\BookShoppingCartMvcUI\bin\Debug\net8.0\BookShoppingCartMvcUI.exe
 D:\d\.Net Web Developer\depi\BookShoppingCart-Mvc\BookShoppingCartMvcUI\bin\Debug\net8.0\BookShoppingCartMvcUI.deps.json
